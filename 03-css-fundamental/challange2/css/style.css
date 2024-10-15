@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.4;
+    font-size: 16px;
+    color: #3b3b3b;
+}
+
+.product {
+    border: 5px solid #000;
+    width: 850px;
+    margin: 60px auto;
+    position: relative;
+}
+
+.produc-title {
+    text-transform: uppercase;
+    background-color: #f4f4f4;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+.product-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.product-shipping {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #727272;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.more-info {
+    color: #3b3b3b;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.more-info:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.product-detail {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+/* li {
+    list-style-type: square;
+} */
+
+.product-list {
+    list-style-type: square;
+    margin-left: 25px;
+}
+
+.add-to-chart {
+    background-color: #000;
+    padding: 20px 6px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    border-top: 4px solid #000;
+}
+
+.add-to-chart:hover {
+    background-color: white;
+    color: black;
+    /* border-top: 4px solid black; */
+}
+
+/* challange 2 start */
+h2 {
+    margin: 0;
+}
+
+.color-box {
+    width: 20px;
+    height: 20px;
+    background-color: aquamarine;
+    margin-right: 10px;
+    display: inline-block;
+    list-style: none;
+}
+
+.black {
+    background-color: #000;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: #ffe876;
+}
+
+.green {
+    background-color: green;
+}
+
+.choco {
+    background-color: chocolate;
+}
+
+ul {
+    margin-bottom: 24px;
+}
+
+.product-list li {
+    margin-bottom: 10px;
+}
+
+.sale {
+    text-transform: uppercase;
+    position: absolute;
+    background-color: red;
+    padding: 5px 14px;
+    color: #f4f4f4;
+    font-weight: bold;
+    left: -45px;
+    top: -20px;
+    letter-spacing: 3px;
+}
